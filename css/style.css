@@ -45,6 +45,10 @@ header .navbar ul a {
     color: black;
 }
 
+header .navbar ul a:hover {
+    opacity: 0.8;
+}
+
 header .navbar ul a:visited {
     text-decoration: none;
 }
