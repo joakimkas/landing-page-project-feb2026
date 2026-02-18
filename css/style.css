@@ -58,17 +58,19 @@ header .navbar ul li {
     margin: 0 20px;
     font-family: var(--font-family);
 }
+
 .hero {
     background-image: url("../img/hero.png");
-    background-color: #ffffff; /* Used if the image is unavailable */
-    height: 600px; /* You must set a specified height */
+    background-color: #ffffff; 
+    height: 600px; 
     background-position: right;
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 100px;
     font-family: var(--font-family);
+    margin-bottom: 10px;
 }
 .hero #lumina-one {
     width: 20%;
@@ -190,15 +192,20 @@ body {
     font-size: var(--font-size-broed);
 }
 
+.nr1 .egenskaber ul li{
+    margin: 10px;
+}
+
 .nr1 .egenskaber p {
     font-size: var(--font-size-broed);
     font-weight: var(--font-weight-bold);
-    margin-top: 2rem;
 }
 
 
 /* Produktblad med beskrivelse */
 /* Knapper */
+
+
 .nr1 .egenskaber .knapper {
     display: flex;
     gap: 1rem;
@@ -261,7 +268,12 @@ body {
 /* Afsnit om social og connect */
 /* Billedet */
 .nr2 .connect-billede img {
-    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+}
+.nr2 .connect-billede {
+    display: flex;
+    justify-content: center;
 }
 
 
